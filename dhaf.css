@@ -1,0 +1,19 @@
+.back-home {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.back-home a {
+    font-size: 17px;
+    padding: 6px 15px;
+    background: rgba(255,255,255,0.2);
+    color: rgb(9, 51, 128);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.back-home a:hover {
+    background: rgb(94, 97, 206);
+    color: #1e3c72;
+}

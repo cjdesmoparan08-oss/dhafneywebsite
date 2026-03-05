@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login & Sign Up</title>
+    <link rel="stylesheet" href="log style.css">
+</head>
+<body>
+
+<div class="card-container">
+    <div class="card" id="card">
+
+        
+        <div class="side front">
+            <h2>Login</h2>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button><li><a href="WEB PAGE.html">Login</a></li></button>
+            <p onclick="flipCard()">No account? Sign Up</p>
+        </div>
+
+        
+        <div class="side back">
+            <h2>Sign Up</h2>
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button><li><a href="WEB PAGE.html">Sign up</a></li></button>
+            <p onclick="flipCard()">Already have an account? Login</p>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function flipCard() {
+        document.getElementById("card").classList.toggle("flip");
+    }
+</script>
+
+</body>
+</html>
